@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    font-family: arial,sans-serif;
+}
+#google_nav ul {
+    display:flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#google_nav ul li {
+    list-style-type: none;
+    margin-right: .7rem;
+}
+
+#google_nav ul li a {
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    font-size: .8rem;
+
+}
+#google_nav ul li a:hover {
+    text-decoration: underline;
+}
+#google_nav ul li a button {
+    background-color: #1a73e8;
+    color:white;
+    padding:10px 25px;
+    border:none;
+    border-radius: 5px;
+}
+
+#google-hero {
+    width:30%;
+    height: 72vh;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+}
+
+#google-hero div form {
+    width:100%;
+    margin-top: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#google-hero form input {
+    width:100%;
+    border:1px solid #dfe1e5;
+    border-radius: 20px;
+    padding:10px;
+
+    
+   
+}
+#google-search {
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#google-search li {
+    list-style-type: none;
+    
+}
+
+#search {
+    margin-right:.6rem;
+}
+#lucky {
+    margin-left : .6rem;
+}
+#google-search li button {
+    background-color: #f8f9fa;
+    border:none;
+    padding:.5rem;
+    color:#3c4043;
+}
+
+#google-search li button:hover {
+    cursor: pointer;
+    border:1px solid rgba(175, 173, 173, 0.986);
+    border-radius: 5px;
+}
+
+#google_contant{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#google_contant p{
+    color:#3c4043;
+    font-size: .8rem;
+}
+
+#google_contant a{
+    text-decoration: none;
+    margin-left: .2rem;
+    color:blue;
+}
+
+#google_contant a:hover {
+    text-decoration: underline;
+}
+
+#nav_1 {
+    background-color: #f2f2f2;
+    font-size: 15px;
+    color:#70757a;
+    padding: 5px 5px 5px 40px;
+
+}
+#nav_2 {
+    display:flex;
+    justify-content: space-between;
+    background-color:#f2f2f2;
+}
+#first {
+    display:flex;
+}
+
+#first li{
+    list-style-type: none;
+    margin-right: 2rem;
+}
+#first li a {
+    text-decoration: none;
+    color:#70757a;
+    font-size: .9rem;
+}
+#first li a:hover{
+    text-decoration: underline;
+}
+#second {
+    display:flex;
+}
+#second li{
+    list-style-type: none;
+    margin-right: 2rem;
+}
+#second li a {
+    text-decoration: none;
+    color:#70757a;
+    font-size: .9rem;
+}
+#second li a:hover{
+    text-decoration: underline;
+}
