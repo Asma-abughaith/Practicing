@@ -1,0 +1,25 @@
+.container {
+    background-color: rgb(241, 197, 245);
+    width: 30%;
+}
+#board {
+    width:70%;
+    height: 60vh;
+    font-size: 150%;
+}
+.board-cell {
+    box-shadow: 0 0 0 2px;
+    height: 80px;
+    font-size: 250%;
+    text-align: center;
+    border:2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    cursor: pointer;
+}
+.turn {
+    text-align: center;
+}
+

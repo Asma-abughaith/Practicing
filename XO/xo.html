@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="xo.css">
+</head>
+
+<body>
+    <div class="container  m-auto my-5">
+        <h2 class="text-center mt-5">Tic-Tac-Toe</h2>
+        <p class="text-center mb-0">Player 1: X</p>
+        <p class="text-center">Player 2: O</p>
+        <div id="board" class=" mt-0 p-0 m-auto">
+            <div class="row   ">
+              <div id="0" class="board-cell  col " onclick="game(this.id)"></div>
+              <div id="1" class="board-cell  col "onclick="game(this.id)"></div>
+              <div id="2" class="board-cell  col  "onclick="game(this.id)"></div>
+            </div>
+            <div class="row ">
+              <div id="3" class="board-cell  col "onclick="game(this.id)"></div>
+              <div id="4" class="board-cell  col  "onclick="game(this.id)"></div>
+              <div id="5" class="board-cell  col  "onclick="game(this.id)"></div>
+            </div>
+            <div class="row ">
+              <div id="6" class="board-cell  col  "onclick="game(this.id)"></div>
+              <div id="7" class="board-cell  col  "onclick="game(this.id)"></div>
+              <div id="8" class="board-cell  col "onclick="game(this.id)"></div>
+            </div>
+            <div id="turn-player"class="turn m-2 text-centr">Player 1</div>
+            <div class="text-center">
+            <button id="restart" class=" btn btn-danger m-auto m-2 text-centr" onclick="reload()">Restart</button>
+            </div>
+        </div>
+       
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="xo.js"></script>
+</body>
+
+</html>
