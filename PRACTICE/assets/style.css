@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+#main-container{
+    height: 439.84px;
+    width: 1000px;
+    background-color: black;
+
+}
+
+.number{
+    display:none;
+}
+.d-flex{
+    background-color: black;
+}
+#main-container > div {
+    width:50px;
+    
+}
+
+#main-container > div:hover{
+    width:150px;
+}
